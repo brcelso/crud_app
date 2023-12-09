@@ -2,7 +2,7 @@ import { BiEdit,BiTrashAlt } from "react-icons/bi";
 
 export default function Table(){ 
     return (
-        <table className="min-w-full table auto">
+        <table className="min-w-full table auto rounded-md">
         <thead>
             <tr className="bg-gray-700">
                 <th className="px-16 py-2">

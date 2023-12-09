@@ -1,20 +1,20 @@
 export default function Form(){ 
     return (
-        <form className="grid lg:grid-cols-2 w-4/6 gap-4">
+        <form className="grid lg:grid-cols-2 w-4/6 gap-4 rounded-md">
             <div className="input-type">
-                <input type="text" name="event" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="Event" />
+                <input type="text" name="event" className="border w-full px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="Event" />
             </div>
             <div className="input-type">
-                <input type="text" name="typeof" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="Type Of" />
+                <input type="text" name="typeof" className="border w-full px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="Type Of" />
             </div>
             <div className="input-type">
-                <input type="text" name="start" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="Start" />
+                <input type="text" name="start" className="border w-full px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="Start" />
             </div>
             <div className="input-type">
-                <input type="text" name="end" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="End" />
+                <input type="text" name="end" className="border w-full px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="End" />
             </div>
             <div className="input-type">
-                <input type="date" name="date" className="border px-5 py-3 focus:outline-none rounded-md" placeholder="Date" />
+                <input type="date" name="date" className="border px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="Date" />
             </div>
 
             <div className="flex gap-10 items-center ">

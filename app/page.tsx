@@ -20,7 +20,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto py-5">
         <Form></Form>
         </div>
 

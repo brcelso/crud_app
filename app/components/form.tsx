@@ -1,21 +1,23 @@
 export default function Form(){ 
     return (
-        <form>
-            
+        <form className="grid lg:grid-cols-2 w-4/6 gap-4">
             <div className="input-type">
-                <input type="text" name="firstname" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="FirstName" />
+                <input type="text" name="event" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="Event" />
             </div>
             <div className="input-type">
-                <input type="text" name="firstname" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="LastName" />
+                <input type="text" name="typeof" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="Type Of" />
             </div>
             <div className="input-type">
-                <input type="text" name="firstname" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="Email" />
+                <input type="text" name="start" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="Start" />
             </div>
             <div className="input-type">
-                <input type="text" name="firstname" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="Email" />
+                <input type="text" name="end" className="border w-full px-5 py-3 focus:outline-none rounded-md" placeholder="End" />
+            </div>
+            <div className="input-type">
+                <input type="date" name="date" className="border px-5 py-3 focus:outline-none rounded-md" placeholder="Date" />
             </div>
 
-            <div>
+            <div className="flex gap-10 items-center ">
             <div className="form-check">
                 <input type="radio" value="Active" id="radioDefault1"name="status" className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-500 checked:border-green-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" placeholder="Email" />
                 <label htmlFor="radioDefault1" className="inline-block tet-gray-8">

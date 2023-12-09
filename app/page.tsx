@@ -16,9 +16,10 @@ export default function Home() {
           </div>
 
         </div>
-        <Table>
-
-        </Table>
+        <div className="container mx-auto">
+        <Table></Table>  
+        </div>
+        
       </main>
     </section>
   )

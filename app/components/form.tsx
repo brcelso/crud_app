@@ -1,4 +1,8 @@
+import { useReducer } from "react"
+
 export default function Form(){ 
+
+
     return (
         <form className="grid lg:grid-cols-2 w-4/6 gap-4 rounded-md">
             <div className="input-type">
